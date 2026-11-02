@@ -1,0 +1,279 @@
+<!DOCTYPE html><html><head>
+      <title>Japan-Vegetarian</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="日本素食餐廳筆記">日本素食餐廳筆記 </h1>
+<h2 id="大阪-osaka">大阪 Osaka </h2>
+<h3 id="吃過推薦">吃過推薦 </h3>
+<ul>
+<li>
+<p><a href="https://maps.app.goo.gl/CpFJqZqFj5ztq8B99">千房 道頓堀</a></p>
+<ul>
+<li>葷素都有，菜單上有素食，也可以特別告知請店家協助客製化</li>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=%E5%8D%83%E6%88%BF%20%E9%81%93%E9%A0%93%E5%A0%80&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="千房 道頓堀 Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="https://maps.app.goo.gl/djWEqjQHBZTFc2Cy8">Pivot BASE Cafe &amp; Bar ＠Dotonbori</a></p>
+<ul>
+<li>午餐和晚餐菜單不同；晚餐有道頓堀名產炸串！</li>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Pivot%20BASE%20Cafe%20%26%20Bar%20Dotonbori&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Pivot BASE Cafe &amp; Bar Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="尚未吃過">尚未吃過 </h3>
+<ul>
+<li><a href="https://maps.app.goo.gl/E2MLfkgvC1VpQR2u8">素食串燒 あじゅ</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=%E7%B4%A0%E9%A3%9F%E4%B8%B2%E7%87%92%20%E3%81%82%E3%81%98%E3%82%85%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="素食串燒 あじゅ Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/kqdpz94GfLAHEYSN6">Natural kitchen Medaka No. 2</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Natural%20kitchen%20Medaka%20No.%202%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Natural kitchen Medaka No. 2 Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/AbAQroPJj76kGvvL8">Vegan and Gluten Free Osaka THE SECONDROOM</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Vegan%20and%20Gluten%20Free%20Osaka%20THE%20SECONDROOM&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="THE SECONDROOM Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/rwdVX6v5ZU1pvWqw8">Cosme Kitchen Adaptation - Hanshin Umeda Store</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Cosme%20Kitchen%20Adaptation%20Hanshin%20Umeda%20Store&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Cosme Kitchen Adaptation Hanshin Umeda Store Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/UcCHbkJ7HCQKi3GN7">Green Earth</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Green%20Earth%20Osaka%20vegetarian&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Green Earth Osaka Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/KAqLjUwiYpRBZsF78">Paprika Shokudo Vegan Food</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Paprika%20Shokudo%20Vegan%20Food%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Paprika Shokudo Vegan Food Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/vjVfHC7XxBhHPs5Q8">Shojin Sushi Minamo</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Shojin%20Sushi%20Minamo%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Shojin Sushi Minamo Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/kcwMoWrfzdL2EAYL8">Vegan Friendly Ramen by Playpen Friends</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Vegan%20Friendly%20Ramen%20by%20Playpen%20Friends%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Vegan Friendly Ramen by Playpen Friends Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/nz6rjV179JW4qMZ49">OKO - Fun Okonomiyaki Bar</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=OKO%20Fun%20Okonomiyaki%20Bar%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="OKO Fun Okonomiyaki Bar Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/hbxzaPPqyhpp6F5CA">Jidoritei Taishoekimaeten</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Jidoritei%20Taishoekimaeten%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Jidoritei Taishoekimaeten Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/67k4do1FXCzipR6e8">Shinsekai Paprika Shokudo Vegan&amp;Gluten-free</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Shinsekai%20Paprika%20Shokudo%20Vegan%20Gluten-free%20Osaka&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Shinsekai Paprika Shokudo Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="京都-kyoto">京都 Kyoto </h2>
+<h3 id="吃過推薦-1">吃過推薦 </h3>
+<ul>
+<li><a href="https://maps.app.goo.gl/x4ZAstaYritjMYji8">祇園豆乳拉麵 UnoYukiko</a>
+<ul>
+<li>環境跟食物都不錯</li>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=%E7%A5%87%E5%9C%92%E8%B1%86%E4%B9%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20UnoYukiko%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="祇園豆乳拉麵 UnoYukiko Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/jPRakjo69cZzi4JZA">mumokuteki cafe&amp;foods Kyoto</a>
+<ul>
+<li>定食</li>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=mumokuteki%20cafe%20and%20foods%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="mumokuteki cafe and foods Kyoto Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="尚未吃過-1">尚未吃過 </h3>
+<ul>
+<li><a href="https://maps.app.goo.gl/szz6mj2S7mHKTnKXA">Pettirosso Kyoto</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Pettirosso%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Pettirosso Kyoto Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/GJrSaqv6y14dRVrC8">suiro</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=suiro%20Kyoto%20vegan&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="suiro Kyoto Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/RpF3cQVfyXZLxtYf8">Vegan Ramen UZU Kyoto</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Vegan%20Ramen%20UZU%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Vegan Ramen UZU Kyoto Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/Qwv52QaqwzP4xYBz6">Fune Ethical Lifestyle</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Fune%20Ethical%20Lifestyle%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Fune Ethical Lifestyle Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/T9a3spJ6fCvdJBMi7">MOON and BACK Kiyamachi Alley Branch</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=MOON%20and%20BACK%20Kiyamachi%20Alley%20Branch%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="MOON and BACK Kiyamachi Alley Branch Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/g2fVpCn11gjp5TGK9">ZIRAEL Vegan Restaurant</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=ZIRAEL%20Vegan%20Restaurant%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="ZIRAEL Vegan Restaurant Kyoto Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/8Edu61ZLLDvHTWKd8">Nijiya</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Nijiya%20Kyoto%20vegetarian&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Nijiya Kyoto Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/vFEUoSPdF37tmygt8">KYOTO ENGINE RAMEN</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=KYOTO%20ENGINE%20RAMEN&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="KYOTO ENGINE RAMEN Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/pbTuCEQ6FeFCgnqZ6">豆乳拉麵專門店「豆禪」</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=%E8%B1%86%E4%B9%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E8%B1%86%E7%A6%85%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="豆乳拉麵專門店 豆禪 Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/H8KNZWkneTYimKEK8">Semmaruya honten</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=Semmaruya%20honten%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="Semmaruya honten Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/wrUssiBjyzkV96RW9">silver backs cafe/vegan</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=silver%20backs%20cafe%20vegan%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="silver backs cafe vegan Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/K3kpNBB6tAPRSVZz9">MERCY Vegan Factory KYOTO STATION</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=MERCY%20Vegan%20Factory%20KYOTO%20STATION&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="MERCY Vegan Factory KYOTO STATION Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/UEhijsdzLd6AZs2R6">嵯峨豆腐 稻 本店</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=%E5%B5%AF%E5%B3%A8%E8%B1%86%E8%85%90%20%E7%A8%B2%20%E6%9C%AC%E5%BA%97%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="嵯峨豆腐 稻 本店 Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+<li><a href="https://maps.app.goo.gl/HhnU8gSiRStBTX9D9">天龍寺 篩月</a>
+<ul>
+<li>
+<details><summary>📍 地圖預覽</summary><iframe src="https://www.google.com/maps?q=%E5%A4%A9%E9%BE%8D%E5%AF%BA%20%E7%AF%A9%E6%9C%88%20Kyoto&amp;output=embed" width="100%" height="300" style="border:0" loading="lazy" title="天龍寺 篩月 Google 地圖"></iframe></details>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>其他資訊</h2>
+<ul>
+<li><strong>鳴門鯛魚燒</strong>
+<ul>
+<li>日本各地連鎖鯛魚燒店，官方有說油是使用豬油，如果介意的話就不能吃</li>
+</ul>
+</li>
+<li><strong>日本蔬食地圖 by 找蔬食Traveggo</strong>
+<ul>
+<li><a href="https://www.google.com/maps/d/u/0/viewer?hl=en&amp;mid=1xTLvvEkjQ1Xl6QKIdMoXlB45eBG8Tkw&amp;ll=34.84469441449587%2C135.11989215&amp;z=7">日本蔬食地圖｜純素｜蔬食｜葷素｜拉麵</a></li>
+</ul>
+</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
